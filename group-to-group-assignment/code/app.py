@@ -6,7 +6,7 @@ import sys
 app_id = os.environ["APP_ID"]  # (Application ID)
 client_secret = os.environ["CLIENT_SECRET"]  # (Client Secret)
 tenant_id = os.environ["TENANT_ID"]  # (Tenant ID)
-ecp_group_name = os.environ["ECP_GROUP_NAME"]
+ecp_group_name = os.environ["MASTER_GROUP_NAME"]
 app_group_name = os.environ["APP_GROUP_NAME"]
 
 
